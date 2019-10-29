@@ -1,0 +1,66 @@
+@media only screen and (min-width: 550px) and (max-width:799px) {
+	
+.me {
+	height: 100%;
+	padding-top: 200px;
+}
+
+.content {
+	margin-top: 50px;
+	height: 100%;
+}
+
+.container {
+	height: 110%;
+}
+
+.qualities {
+	height: 95%;
+	grid-template-rows: 70px 1fr 1fr 1fr;
+	padding-top: 2%;
+}
+
+.q {
+	height: 100%;
+}
+
+.qfront, .qback {
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*space*/
+
+	}

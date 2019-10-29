@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Pacifico');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #101010;
+  font-family: Josefin Sans;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.intro {
+  font-family: Josefin Sans;
+  color: white;
+  padding: 50px 15px;
+  height: 220px;
+  background-color: #101010;
+}
+
+.content {
+  background-color: #383838;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content h2 {
+  font-family: Josefin Sans;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px 150px 200px 100px 350px 150px 250px 150px 650px;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.container p {
+  border-left: 3px solid white;
+  margin: 0 30px 0 20px;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+.title {
+  background-color: #1B1B1B;
+  color: white;
+  width: 100%;
+  padding: 13px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.item {
+  width: 95%;
+  height: 200px;
+  display: flex;
+  font-family: Josefin Sans;
+  text-decoration: none;
+  border-radius: 27px;
+  box-shadow: inset 0 0 100px black;
+}
+
+.img1 {
+  grid-row: 1;
+  width: 90%;
+  height: 100%;
+  border-radius: 40px;
+  background: url("../img/projects/VR/vrboxing.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.text1 {
+  grid-row: 2
+}
+
+.img2 {
+  grid-row: 3;
+  width: 90%;
+  height: 100%;
+  background: url("../img/projects/VR/ue4.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px; 
+}
+
+.text2 {
+  grid-row: 4;
+}
+
+.img3 {
+  grid-row: 5;
+  width: 90%;
+  height: 100%;
+  background: url("../img/projects/VR/bxglv.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px; 
+}
+
+.text3 {
+  grid-row: 6
+}
+
+.img4 {
+  grid-row: 7;
+  width: 90%;
+  height: 100%;
+  background: url("../img/projects/VR/map.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px; 
+}
+
+.text4 {
+  grid-row: 8;
+}
+
+.video {
+  grid-row: 9;
+  width: 90%;
+  border-radius: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*space*/

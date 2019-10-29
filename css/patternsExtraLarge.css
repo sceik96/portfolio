@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1350px) {
+  
+.header {
+    font-size: 28px;
+  }
+
+.intro {
+    max-width: 800px;
+    padding: 50px 20px;
+    font-size: 18px;
+  }
+
+.item {
+	height: 600px;
+    max-width: 800px;
+    border-radius: 60px;
+	}
+
+.content {
+      border-radius: 80px;
+
+  }
+
+.content h2 {
+    font-size: 28px;
+    padding: 50px;
+  }
+
+.container {
+		grid-template-rows: 600px;
+  grid-gap: 50px;
+  margin-bottom: 50px;
+
+}
+
+.title {
+  width: 80%;
+  height: 60px;
+  padding: 13px;
+  margin: 40px auto;
+  border-radius: 80px;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 25px;
+	}
+
+}

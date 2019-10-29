@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Pacifico');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #101010;
+}
+
+header {
+  font-family: Josefin Sans;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.me {
+  background: url("../img/aboutme/me4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  border-bottom-right-radius: 30px;
+  box-shadow: inset 0 0 100px black;
+  border-bottom-left-radius: 30px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content h2 {
+  color: white;
+  font-family: Josefin sans;
+  font-size: 42px;
+  padding: 20px;
+}
+
+.content p {
+  color: white;
+  font-family: Josefin Sans;
+  padding: 20px 15px;
+}
+
+.content a {
+  font-family: Josefin Sans;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  background-color: #434343;
+  border-radius: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 100px;
+}
+
+.qualities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 150px 150px 150px;
+  width: 90%;
+  margin: 15px auto;
+  border-radius: 15px;
+  justify-items: stretch;
+}
+
+.title {
+  grid-column: 1 / span 3;
+  background-color: #101010;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.q {
+  background-color: #D7D7D7;
+  width: 100%; 
+}
+
+.qfront p {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.qback p {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.qback a {
+  font-size: 16px;
+}
+
+.qfront, .qback{
+  backface-visibility: hidden;
+  padding-top: 40px;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+}
+
+.qback {
+  background-color: #DCDCDC;
+  padding-top: 0px;
+
+}
+
+.qfront {
+  background-color: #D7D7D7;
+  opacity: 0.1;
+}
+
+.qfront p {
+  color: black;
+  opacity: 1;
+}
+
+.q7, .q7front, .q7back {
+  border-bottom-left-radius: 15px;
+}
+
+.q9, .q9front, .q9back {
+  border-bottom-right-radius: 15px;
+}
+
+.q1 {
+  background: url("../img/aboutme/html5.png");
+  background-size: cover;
+  background-position: center;
+  }
+
+.q2 {
+  background: url("../img/aboutme/css3.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q3 {
+  background: url("../img/aboutme/js.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q4 {
+  background: url("../img/aboutme/axure.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q5 {
+  background: url("../img/aboutme/unreal.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q6 {
+  background: url("../img/aboutme/gs.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q7 {
+  background: url("../img/aboutme/research.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q8 {
+  background: url("../img/aboutme/comicsans2.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.q9 {
+  background: url("../img/aboutme/present.png");
+  background-size: cover;
+  background-position: center;  
+}
+
+.addition {
+  display: none;
+}
+
+
+
+
+

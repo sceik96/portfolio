@@ -1,0 +1,81 @@
+@media only screen and (min-width: 550px) and (max-width: 899px) {
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 59%;
+  border-radius: 30px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+}
+
+.projects, .aboutMe, .contact, .opinions {
+	width: 100%;
+	padding: 10px;
+}
+
+.projects, .aboutMe {
+	display: flex;
+	align-items: flex-start;
+}
+
+.contact, .opinions {
+	display: flex;
+	align-items: flex-end;
+}
+
+.projects {
+  border-width: 0px 2px 2px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius:0px 0px 28px 0px;
+  background: url("../img/home/projects.jpg");
+  background-size: cover;
+
+}
+
+.aboutMe {
+  border-width: 0px 0px 2px 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius:0px 0px 0px 28px;
+  background: url("../img/aboutme/me4bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact {
+  border-width: 2px 2px 0px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 0px 28px 0px 0px;
+  background: url("../img/home/contactme.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.opinions {
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 28px 0px 0px 0px;
+  background: url("../img/home/opinions.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+}

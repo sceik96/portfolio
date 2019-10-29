@@ -1,0 +1,107 @@
+@media only screen and (min-width: 1350px) {
+
+.picture {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	background: url("../img/aboutme/pattern.png");
+	background-size: cover;
+ 	background-position: center;
+}
+
+.me {
+  	background: url("../img/aboutme/me4.jpg"); /*even deze foto nog aanpassen*/
+	background-size: cover;
+ 	background-position: center;
+	height: 78%;
+	width: 60%;
+	max-width: 600px;
+	border-radius: 15px;
+	margin-top: 10%;
+
+}
+
+.content {
+	padding-top: 50px;
+	height: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.story {
+	width: 85%;
+	margin: 0 auto;
+	min-width: 750px;
+}
+
+.container {
+	height: 90%;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	justify-items: center;
+	margin-top: 50px;
+}
+
+.qualities {
+	height: 90%;
+	width: 65%;
+	grid-column: 1;
+	grid-template-rows: 70px 1fr 1fr 1fr;
+	padding-top: 2%;
+}
+
+.q {
+	height: 100%;
+}
+
+.qfront, .qback {
+	height: 100%;
+}
+
+.qback p {
+	font-size: 15px;
+
+}
+
+.qback a {
+  font-size: 15px;
+}
+
+.addition {
+	display: block;
+	grid-template-columns: 2;
+	width: 60%;
+	margin: 40px;
+	justify-self: start;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*space*/
+}

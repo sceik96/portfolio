@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Pacifico');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #101010;
+}
+
+header {
+  font-family: Josefin Sans;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.intro {
+  font-family: Josefin Sans;
+  color: white;
+  padding: 10px;
+  height: 10%;
+  width: 100%;
+  background-color: #101010;
+}
+
+.buttongroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 72%;
+}
+
+a {
+  margin: 5px;
+  height: 100%;
+  flex-basis: 40%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 100px black;
+  padding-top: 65%;
+}
+
+
+#assignments {
+  background: url("../img/HCI/assignments.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Josefin Sans;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#research {
+  background: url("../img/HCI/research.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Josefin Sans;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#reflection {
+  background: url("../img/HCI/reflection.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Josefin Sans;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
